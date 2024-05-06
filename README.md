@@ -15,7 +15,7 @@ This webpage is built with HTML, CSS (preprocessed with Sass), and JavaScript. I
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/vibraniumSwaleh/wander.git`
-2. Navigate to the project directory: `cd {index}`
+2. Navigate to the project directory: `cd wander`
 3. Open the index.html file in your web browser.
 
 ## Usage
@@ -35,4 +35,4 @@ Contributions are welcome! If you'd like to contribute to {index}, please follow
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Credits
-- Built by [https://github.com/vibraniumSwaleh](#).
+- Built by [github.com/vibraniumSwaleh](#).
