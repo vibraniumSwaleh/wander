@@ -1,6 +1,6 @@
 ## About Wander
 
-![Wander Hero Section](/img/wander_hero.png)
+![Wander Hero Section](/img/hero-small.jpg)
 
 This webpage is built with HTML, CSS (preprocessed with Sass), and JavaScript. It features a responsive layout and showcases some of the most popular tours offered by Wander, along with information about the company and positive testimonials from past customers.
 
