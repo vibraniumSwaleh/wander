@@ -1,0 +1,21 @@
+{
+  "name": "wander",
+  "version": "1.0.0",
+  "description": "landing page for wander tours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "wander",
+    "tour",
+    "landing",
+    "page",
+    "adventure"
+  ],
+  "author": "Swaleh Hussein",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
