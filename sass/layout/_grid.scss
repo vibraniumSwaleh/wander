@@ -1,7 +1,7 @@
 .row {
   max-width: $grid-width;
   margin: 0 auto;
-  background-color: #eee;
+  //background-color: #eee;
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
   }
@@ -9,7 +9,6 @@
   @include clearfix;
 
   [class^="col-"] {
-    background-color: orange;
     float: left;
 
     &:not(:last-child) {
@@ -30,14 +29,20 @@
   }
 
   .col-2-of-3 {
-    width: calc((((100% - #{$gutter-horizontal} * 2) / 3) * 2) + #{$gutter-horizontal});
+    width: calc(
+      (((100% - #{$gutter-horizontal} * 2) / 3) * 2) + #{$gutter-horizontal}
+    );
   }
 
   .col-2-of-4 {
-    width: calc((((100% - #{$gutter-horizontal} * 3) / 4) * 2) + #{$gutter-horizontal});
+    width: calc(
+      (((100% - #{$gutter-horizontal} * 3) / 4) * 2) + #{$gutter-horizontal}
+    );
   }
 
   .col-3-of-4 {
-    width: calc((((100% - #{$gutter-horizontal} * 3) / 4) * 3) + #{$gutter-horizontal} * 2);
+    width: calc(
+      (((100% - #{$gutter-horizontal} * 3) / 4) * 3) + #{$gutter-horizontal} * 2
+    );
   }
 }
