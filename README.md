@@ -11,6 +11,8 @@ This webpage is built with HTML, CSS (preprocessed with Sass), and JavaScript. I
 - JavaScript
 
 ## Features
+![Wander Feature Section Image](/img/wander_features.webp)
+
 - Responsive design for optimal viewing on different devices.
 - Interactive elements like popups for displaying important information.
 - Easy-to-customize grid system for layout.
