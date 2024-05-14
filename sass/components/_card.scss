@@ -1,0 +1,67 @@
+.card {
+  position: relative;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  height: 50rem;
+
+  &__side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: $color-white;
+    font-size: 4rem;
+    height: 50rem;
+    width: 100%;
+    transition: all .8s ease;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+    &--front {
+      background-color: $color-white;
+    }
+
+    &--back {
+      background-color: rgba(0, 255, 21, 0.5);
+      transform: rotateY(-180deg);
+
+      &--1 {
+        background-image: linear-gradient(
+            to right bottom,
+            rgba($color-secondary-light, 0.8),
+            rgba($color-secondary-dark, 0.8)
+          ),
+          url("/img/nat-6.jpg");
+      }
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(180deg);
+  }
+  &:hover &__side--back {
+    transform: rotateY(0deg);
+  }
+
+  &__picture {
+
+    &-1 {}
+    &-2 {}
+    &-3 {}
+  }
+
+  &__heading {
+
+    &-1 {}
+    &-2 {}
+    &-3 {}
+  }
+
+  &__details {
+
+    &-1 {}
+    &-2 {}
+    &-3 {}
+  }
+
+}
