@@ -31,6 +31,22 @@
           rgba($color-secondary-dark, 0.8)
         );
       }
+
+      &--2 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-primary-light, 0.8),
+          rgba($color-primary-dark, 0.8)
+        );
+      }
+
+      &--3 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-secondary-tertiary-light, 0.8),
+          rgba($color-secondary-tertiary-dark, 0.8)
+        );
+      }
     }
   }
 
@@ -59,11 +75,21 @@
     }
 
     &--2 {
-      background-image: url("/img/nat-5.jpg");
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($color-primary-light, 0.85),
+          rgba($color-primary-dark, 0.85)
+        ),
+        url("/img/nat-6.jpg");
     }
 
     &--3 {
-      background-image: url("/img/nat-5.jpg");
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($color-secondary-tertiary-light, 0.85),
+          rgba($color-secondary-tertiary-dark, 0.85)
+        ),
+        url("/img/nat-7.jpg");
     }
   }
 
@@ -77,6 +103,8 @@
     text-transform: uppercase;
     color: $color-white;
     width: 75%;
+    backface-visibility: hidden;
+    transform: translateZ(0);
   }
 
   &__heading-span {
@@ -93,9 +121,19 @@
     }
 
     &--2 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.85),
+        rgba($color-primary-dark, 0.85)
+      );
     }
 
     &--3 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-secondary-tertiary-light, 0.85),
+        rgba($color-secondary-tertiary-dark, 0.85)
+      );
     }
   }
 
@@ -126,5 +164,35 @@
 
     &--3 {
     }
+  }
+
+  // BACK SIDE STYLING
+  &__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+    backface-visibility: hidden;
+  }
+
+  &__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+  }
+
+  &__price-box {
+    text-align: center;
+    color: $color-white;
+    margin-bottom: 8rem;
+    backface-visibility: hidden;
+  }
+
+  &__price-value {
+    font-size: 6rem;
+    font-weight: 100;
+    backface-visibility: hidden;
   }
 }
