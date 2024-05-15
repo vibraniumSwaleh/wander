@@ -329,6 +329,24 @@ body {
     font-weight: 100;
     backface-visibility: hidden; }
 
+.story {
+  width: 75%;
+  padding: 6rem;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  background-color: #fff; }
+  .story__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    background-color: orangered;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%); }
+
 .header {
   position: relative;
   height: 95vh;
@@ -392,3 +410,7 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
   margin-top: -12rem; }
+
+.section-stories {
+  padding: 15rem 0;
+  background-color: #f7f7f7; }
