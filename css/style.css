@@ -754,6 +754,9 @@ body {
   transform: translate(-50%, -50%);
   list-style: none;
   text-align: center; }
+  @media (max-width: 37.5em) {
+    .navigation__list {
+      width: 100%; } }
 
 .navigation__item {
   margin: 1rem; }

@@ -75,6 +75,10 @@
     @include absoluteCenterYX;
     list-style: none;
     text-align: center;
+    
+    @include respond(phone) {
+      width: 100%;
+    }
   }
 
   &__item {
