@@ -132,6 +132,9 @@ dist
 # Optional REPL history
 .DS_Store
 
+css/style.comp.css
+css/style.concat.css
+css/style.prefix.css
 #Excluding build directory
 
 
